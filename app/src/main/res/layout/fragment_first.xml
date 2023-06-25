@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_style"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_style"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/navigationButton"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/square_button"
+        android:text="Вторая View"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
